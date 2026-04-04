@@ -1,0 +1,45 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Preparation extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'mekanik_id',
+        'spk_id',
+        'tanggal',
+        'jam_mulai',
+        'jam_selesai',
+        'status',
+        'bahan', // Ini sudah ada dari migrasi
+    ];
+
+    /**
+     * Memberitahu Laravel bahwa 'bahan' adalah array/json
+     * dan 'tanggal' adalah objek Carbon date.
+     */
+    protected $casts = [
+        'bahan' => 'array',
+        'tanggal' => 'date', // 🔥 DISAMAKAN DENGAN BODY.PHP
+    ];
+
+    // Relasi ke Mekanik
+    public function mekanik()
+    {
+        // Pastikan foreign key disertakan
+        return $this->belongsTo(Mekanik::class, 'mekanik_id');
+    }
+
+    // Relasi ke SPK
+    public function spk()
+    {
+        // Pastikan foreign key disertakan
+        return $this->belongsTo(Spk::class, 'spk_id');
+    }
+}
+
