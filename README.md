@@ -25,7 +25,7 @@
 
 ## 📸 Screenshots
 
-*(Ganti link gambar di bawah ini dengan screenshot aplikasimu yang sebenarnya di dalam folder `/public/images` atau direct upload ke GitHub)*
+Berikut adalah beberapa tampilan dari aplikasi BP Toyota:
 
 ### 1. Halaman Dashboard
 ![Dashboard](public/images/dashboard.png)
@@ -33,8 +33,11 @@
 ### 2. Manajemen Surat Perintah Kerja (SPK)
 ![Data SPK](public/images/spk.png)
 
-### 3. Laporan Progress Perbaikan
-![Progress](public/images/progress.png)
+### 3. Inventaris Sparepart
+![Data Sparepart](public/images/sparepart.png)
+
+### 4. Laporan Progress Pengecatan (Paint)
+![Progress Paint](public/images/proses_paint.png)
 
 ---
 
