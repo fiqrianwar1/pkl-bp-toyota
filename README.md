@@ -28,13 +28,13 @@
 *(Ganti link gambar di bawah ini dengan screenshot aplikasimu yang sebenarnya di dalam folder `/public/images` atau direct upload ke GitHub)*
 
 ### 1. Halaman Dashboard
-![Dashboard](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Dashboard+Di+Sini)
+![Dashboard](public/images/dashboard.png)
 
 ### 2. Manajemen Surat Perintah Kerja (SPK)
-![Data SPK](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Data+SPK+Di+Sini)
+![Data SPK](public/images/spk.png)
 
 ### 3. Laporan Progress Perbaikan
-![Progress](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Progress+Perbaikan+Di+Sini)
+![Progress](public/images/progress.png)
 
 ---
 
