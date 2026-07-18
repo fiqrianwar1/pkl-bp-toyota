@@ -1,61 +1,106 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚗 BP Toyota - Body & Paint Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=white)](https://alpinejs.dev/)
 
-## About Laravel
+> Sistem Informasi Manajemen Body & Paint untuk bengkel Toyota. Proyek ini dibangun sebagai bagian dari Praktik Kerja Lapangan (PKL) untuk mendigitalisasi proses kerja dari SPK, Sparepart, hingga tahapan perbaikan bodi mobil secara terstruktur mulai dari Mekanik, Body, Preparation, Paint, hingga Poles.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Manajemen Pelanggan & SPK**: Pendataan pelanggan dan pembuatan Surat Perintah Kerja (SPK).
+- **Inventaris Sparepart**: Pemantauan stok dan pemakaian suku cadang.
+- **Tracking Tahapan Perbaikan**:
+  - 👨‍🔧 **Mekanik**: Pengecekan awal dan perbaikan mesin/kaki-kaki.
+  - 🔨 **Body**: Proses perbaikan bodi (ketok, las, dll).
+  - 🛠️ **Preparation**: Persiapan sebelum pengecatan (dempul, amplas, epoxy).
+  - 🎨 **Paint**: Proses pengecatan kendaraan di oven.
+  - ✨ **Poles**: Proses pemolesan dan finishing kendaraan sebelum penyerahan.
+- **Reporting System**: Generate laporan untuk setiap tahapan (SPK, Mekanik, Body, Paint, dll).
+- **Dashboard Interaktif**: Ringkasan data (analytics) secara real-time.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📸 Screenshots
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+*(Ganti link gambar di bawah ini dengan screenshot aplikasimu yang sebenarnya di dalam folder `/public/images` atau direct upload ke GitHub)*
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 1. Halaman Dashboard
+![Dashboard](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Dashboard+Di+Sini)
 
-## Laravel Sponsors
+### 2. Manajemen Surat Perintah Kerja (SPK)
+![Data SPK](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Data+SPK+Di+Sini)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 3. Laporan Progress Perbaikan
+![Progress](https://placehold.co/800x400/e2e8f0/1e293b?text=Masukkan+Screenshot+Progress+Perbaikan+Di+Sini)
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 💻 Teknologi yang Digunakan
 
-## Contributing
+- **Framework**: [Laravel 12](https://laravel.com/)
+- **Frontend**: [Tailwind CSS](https://tailwindcss.com/) & [Alpine.js](https://alpinejs.dev/)
+- **Authentication**: Laravel Breeze
+- **Database**: MySQL
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🚀 Cara Instalasi & Menjalankan (Local Development)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda:
 
-## Security Vulnerabilities
+1. **Clone repository ini**
+   ```bash
+   git clone https://github.com/fiqrianwar1/pkl-bp-toyota.git
+   cd pkl-bp-toyota
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+2. **Install dependency PHP & Node.js**
+   ```bash
+   composer install
+   npm install
+   ```
 
-## License
+3. **Salin file environment & generate App Key**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. **Konfigurasi Database**
+   Buka file `.env` dan sesuaikan koneksi database Anda:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=bp_toyota
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+   *(Pastikan Anda sudah membuat database bernama `bp_toyota` di phpMyAdmin / MySQL)*
+
+5. **Jalankan Migrasi Database**
+   ```bash
+   php artisan migrate
+   ```
+
+6. **Jalankan server**
+   ```bash
+   npm run dev
+   # Buka terminal baru dan jalankan:
+   php artisan serve
+   ```
+
+7. **Akses Aplikasi**
+   Buka browser dan kunjungi `http://localhost:8000`
+
+---
+
+## 👨‍💻 Author
+
+- **Fiqri Anwar** - *Mahasiswa PKL* - [GitHub Profile](https://github.com/fiqrianwar1)
+
+---
+*Dibuat dengan ❤️ untuk kemudahan operasional Body & Paint.*
