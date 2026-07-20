@@ -41,30 +41,6 @@ Berikut adalah beberapa tampilan dari aplikasi BP Toyota:
 
 ---
 
-## 💻 Teknologi Yang Digunakan
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-</div>
-
-<br>
-
-- **Backend**: Laravel 11 (PHP 8.2)
-- **Frontend UI**: Tailwind CSS v3, Alpine.js, Blade Components
-- **Database**: MySQL 8
-- **Charts**: Chart.js
-- **Exports**: Laravel DomPDF, Laravel Excel
-- **DevTools**: Laravel Pint, Playwright E2E
-
----
-
 ## 🚀 Cara Instalasi & Menjalankan (Local Development)
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda:
@@ -119,6 +95,30 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
 ## 👨‍💻 Author
 
 - **Fiqri Anwar** - *Mahasiswa PKL* - [GitHub Profile](https://github.com/fiqrianwar1)
+
+---
+
+## 💻 Teknologi Yang Digunakan
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+</div>
+
+<br>
+
+- **Backend**: Laravel 11 (PHP 8.2)
+- **Frontend UI**: Tailwind CSS v3, Alpine.js, Blade Components
+- **Database**: MySQL 8
+- **Charts**: Chart.js
+- **Exports**: Laravel DomPDF, Laravel Excel
+- **DevTools**: Laravel Pint, Playwright E2E
 
 ---
 
